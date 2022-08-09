@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+}
+
+img{
+    height: 80px;
+    width: 110px;
+    margin: 0px 25px;
+}
+
+.barra{
+    background-color: floralwhite;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.inicios{
+    display: flex;
+    justify-content: space-between;
+    }
+
+
+div{
+    width: 100%;
+    background-color: beige;
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+}
+
+li{
+    display: inline;
+    margin: 10px;
+    line-height: 80px;
+   
+}
