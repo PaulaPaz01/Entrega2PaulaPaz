@@ -1,45 +1,62 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,800;0,900;1,900&display=swap');
+
+
+* {
     margin: 0;
-}
+    padding: 0;
+    box-sizing: border-box;
+    }
 
 body{
     font-family:Arial, Helvetica, sans-serif;
     
-    
-}
+    }
 
-img{
-    height: 80px;
-    width: 110px;
-    margin: 0px 25px;
-}
+    img{
+        height: 80px;
+        width: 80px;
+        
 
-.barra{
-    background-color: floralwhite;
-    height: 80px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-}
-
-.inicios{
-    display: flex;
-    justify-content: space-between;
+        
     }
 
 
-div{
+.barra{
+    height: 100px;
+    position: fixed;
     width: 100%;
-    background-color: beige;
-    border: 2px solid black;
-    position: absolute;
-    top: 0;
-}
+    top: 0px;
+    left: 0px;
+    background-color: lavenderblush;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
 
-li{
-    display: inline;
-    margin: 10px;
-    line-height: 80px;
+.inicios, ul {
+    
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-size: 16px;
+    }
    
-}
+
+
+.item-lista {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+   }
+
+
+   .cupcakes {
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  
