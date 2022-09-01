@@ -13,9 +13,9 @@ body{
     }
 
     img{
-    height: 80px;
-    width: 80px;
-        
+   
+     height: 80px;
+     width: 80px;
 
         
     }
@@ -26,21 +26,34 @@ body{
     position: fixed;
     width: 100%;
     top: 0px;
-    left: 0px;
     background-color: #af7c88;
     padding: 0px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 1;
     }
 
 .inicios, ul {
     
     display: flex;
     list-style: none;
-    gap: 50px;
-    font-size: 16px;
+    gap: 40px;
+    font-size: 19px;
     }
+
+.inicios {
+    display: flex;
+}
+
+.inicios i {
+    font-size: 36px;
+    display: none;
+}
+
+#menu-hamburguesa {
+    display: none;
+}
    
 
 
@@ -52,6 +65,7 @@ body{
 
 
    .cupcakes {
+    font-size: 21px;
     font-family: 'Pacifico', cursive;
     display: flex;
     justify-content: center;
@@ -59,77 +73,238 @@ body{
     
   }
 
-  .titulo {
-    margin: 40px;
-    height: 0px;
+main {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    margin: 200px 0px 0px 0px;
 }
 
-.titulo h1 {
-
-   padding: 0px;
-   font-size: 40px;
-   
-
-}
-
-.img2 { 
-   width: 600px;
-   height: 600px;
-   border-radius: 50px;
-    
-}
-
-.seccion1 {
-  display: flex;
-  margin: 200px 100px 0;
-
-}
-
-.parrafo {
- padding: 8px;
- font-size: 18px;
- 
-}
-
-.info {
- margin: 50px;
- max-width: 700px;
- font-size: 18px;
- 
- display: flex;
- justify-content: center;
- font-family: 'Raleway', sans-serif;
-    
-}
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    width: 100%;
+ }
 
 .div1 {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap:150px;
+    justify-content: center;
+    gap: 90px;
+    font-size: 80px;
     
+}
+
+.div1 h1 {
+    font-weight: 700;
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Pacifico', cursive;
+}
+
+.div1 p { 
+    
+    font-weight: 300;
+    font-size: 18px;
+    max-width: 350px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.div-p1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .pers-insu {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap:100px;
+    gap: 40px;
+    margin: 40px 0px;
+    
+ }
 
+ .pers-insu a {
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+   
+.opcion1 {
+    background-color: black;
+    color: white;
 }
 
-.pers-insu a {
-    text-decoration: none;
+.opcion2 {
+    background-color:rgb(248, 226, 238);
     color: black;
-    background-color: #af7c88;
-    width: 120px;
-    height: 40px;
-    border-radius: 5px;
+}
+
+.img2 { 
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    border: 10px solid #af7c88;
+  
+ }
+
+
+/*segunda seccion*/
+
+
+
+.info {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 80%; 
+ max-width: 850px;
+ padding: 30px 0px;
+ font-weight: 300;
+ text-align:center ;
+ font-size: 20px;
+ font-family: 'Raleway', sans-serif;
+ 
+    
+}
+
+
+/*tercera seccion*/
+
+#nosotros {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 70px;
+    background-color:#e5bec8e0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 70px 0;
+    font-size: 20px;
+    gap: 70px;
+    
+}
+
+
+.info2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Raleway', sans-serif;
+    width: 100%; 
+    max-width: 900px;
+    padding: 30px 0px;
+    font-weight: 500;
+    text-align:center ;
+    font-size: 20px;
+ 
+    
+   
 }
+
+
+.servicios {
+display: flex;
+gap: 50px;
+cursor: pointer;
+    
+}
+
+.caja {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 45px;
+    background-color: #af7c88;;
+    font-family: 'Pacifico', cursive;
+    font-size: 23px;
+    
+}
+
+.imagen {
+   width: 250px;
+   height: 260px;
+   border-radius: 5px;
+   border: solid 2px;
+   
+   
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 80px 0px;
+    gap: 120px;
+    
+
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+
+
+.contacto ul {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    padding: 10px;
+    
+}
+
+.horarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+   
+}
+
+.horarios ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.seguinos{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+   
+   
+}
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+  
+}
+
+.img3{
+    width: 250px;
+    height: 250px;
+
+}
+
+
+

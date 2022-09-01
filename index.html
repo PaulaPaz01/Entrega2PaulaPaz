@@ -7,61 +7,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css">
-
+    <link rel="stylesheet" href="./mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <header class="barra">
         <div class="cupcakes-img">
             <img src="./d4q9c09-5975b9d4-6541-4527-bdef-8f2301898ab8.png" alt="cupcakes">
-            <p class="cupcakes">Cupcakes</p>
+            <p class="cupcakes">Cupcakes Café</p>
         </div>
-        <nav class="inicios"></nav>
-
-        <ul>
-            <li><a class="item-lista" href="home">Home</a></li>
-            <li><a class="item-lista" href="resetas">Recetas</a></li>
-            <li><a class="item-lista" href="servicios">Servicios</a></li>
-            <li><a class="item-lista" href="blog">Blog</a></li>
-        </ul>
-        </div>
+        <nav class="inicios"> 
+            <label for="menu-hamburguesa"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="menu-hamburguesa">
+            <ul class="ul-nav">
+                <li><a class="item-lista" href="home">Home</a></li>
+                <li><a class="item-lista" href="recetas">Recetas</a></li>
+                <li><a class="item-lista" href="servicios">Servicios</a></li>
+                <li><a class="item-lista" href="regala cupcakes">Regala Cupcakes</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <section class="seccion1">
+        <section id="home">
             <div class="div1">
-                <div class="titulo">
-                    <h1> Pasteleria Cupcakes</h1>
-                    <p class="parrafo">Nuestro principal objetivo es la satisfacción de nuestros clientes.
-                        Contamos con gran variedad de repostería moderna con un toque creativo y delicioso.
-                        Enfocándonos en la calidad de nuestros productos con una presentación única y diferente 
-                        para el deleite de los paladares de nuestros visitantes en un ambiente único y agradable  ♥
-                    </p>
+                <h1> Pasteleria <span>Cupcakes</span> </h1>
+                <div class="div-p1">
+                    <p>Nuestro principal objetivo es la satisfacción de nuestros clientes.
+                        Contamos con una gran variedad de sabores.</p>
+                    <p>Brindamos la mejor atencion en nuestra Cafeteria Cupcakes 🧁 </p>
                 </div>
+
+
+
                 <div class="pers-insu">
-                    <a class="opciones" href="#">Cupcakes personalizados</a>
-                    <a class="opciones" href="#">Venta de insumos</a>
+                    <a class="opcion1" href="#">Cupcakes personalizados</a>
+                    <a class="opcion2" href="#">Eventos</a>
                 </div>
-                
+
+            </div>
+            <img  class="img2" src="./cupcakes.2.jpg" alt="cupcakes">
+
+
+        </section>
+
+
+        <section class="section-2">
+            
+                <div class="info">
+                    <p>Cupcake Café es un emprendimiento familiar. Nuestro objetivo es generar experiencias únicas y
+                        momentos divertidos </p>
+                </div>
+
+            
+            
+        </section>
+
+        <section id="nosotros">
+            <div>
+                <h2>Nuestras Especialidades</h2>
+                <p class="info2">
+                    Queremos brindarte una experiencia única, un lugar de encuentro,
+                    en pareja, familia, amigos o solo
+                    Tenemos diferentes opciones donde puedas disfrutar de nuestras especialidades
+                    tanto como envio a domicilio, para eventos, cumples, desayunos.
+                </p>
             </div>
 
-            <img class="img2" src="./cupcakes.2.jpg" alt="cupcakes">
+            <div class="servicios">
+                <div class="caja">
+                    <p>Desayunos y meriendas</p>
+                    <img class="imagen" src="./desayuno.webp" alt="desayuno">
+                </div>
+                <div class="caja">
+                    <p>Nuestra Cafeteria</p>
+                    <img class="imagen" src="./cafe.webp" alt="nuestra cafeteria">
+                </div>
+                <div class="caja">
+                    <p>Nosotros ♥ </p>
+                    <img class="imagen" src="./somos.avif" alt="nosotros">
+                </div>
 
-        </section>
-        
+            </div>
 
-        <section>
-            <div>
-                <div class="info">
-            <p>Somos una pequeña empresa Familiar que nos dedicamos a la elaboración de Cupcakes 
-                con una enorme variedad de estilos, sabores y opciones 
-                para cubrir todas las necesidades de nuestros clientes.
-            </p>
-        </div>
-        </div>
         </section>
     </main>
+    <footer id="footer">
+        <div class="contacto">
+            <h3>Contacto</h3>
+            <br>
+            <ul>
+                <li>
+                    <i class="fa-sharp fa-solid fa-house"></i>
+                    Calle Falsa 123
+                </li>
+                <li>
+                    <i class="fa-sharp fa-solid fa-envelope"></i>
+                    contacto@gmail.com
+                </li>
+                <li>
+                    <i class="fa-sharp fa-solid fa-phone-volume"></i>
+                    011 4708-4752
+                </li>
+            </ul>
+        </div>
 
+        <div class="horarios">
+            <h3>Horarios</h3>
+            <ul>
+                <li>Lunes a Viernes 09:00 am 19:30 pm</li>
+                <li>Sabado y Domingo de 10:00 am 20:00 pm</li>
+            </ul>
+        </div>
+
+        <div class="seguinos">
+            <h3>Seguinos</h3>
+            <div class="iconos">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+        <img class="img3" src="./coffie.jpg" alt="cafe">
+    </footer>
 </body>
 
 </html>

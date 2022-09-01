@@ -1,0 +1,70 @@
+@media (max-width: 992px) {
+    .div1 {
+        text-align: center;
+        width: 90%;
+        align-items: center;
+    }
+
+    .div1 h1 {
+        display: block;
+        width: 100%;
+    }
+
+    .div1 p {
+        max-width: 80%;
+        font-size: 20px;
+        display: flex;
+        text-align: center;
+    }
+
+    .pers-insu {
+        justify-content: center;
+    }
+
+    .img2 {
+        display: none;
+    }
+
+    .info {
+        font-size: 17px;
+    }
+
+    .servicios {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    .inicios ul {
+        background-color: #af7c88 ;
+        width: 100%;
+        height: calc(100vh - 80px);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(200%);
+        transition: all 0.4s ease-in-out;
+    }
+
+    .inicios i { 
+        display: block;
+    }
+
+    #menu-hamburguesa:checked ~ .ul-nav {
+        transform: translateX(0%);
+        transition: all 0.4 ease-in;
+
+    } 
+    .div1 p {
+        max-width: 100%;
+    }
+}
