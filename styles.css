@@ -34,13 +34,12 @@ body{
     z-index: 1;
     }
 
-.inicios, ul {
-    
+.inicios .ul-nav {
     display: flex;
     list-style: none;
     gap: 40px;
     font-size: 19px;
-    }
+}
 
 .inicios {
     display: flex;
